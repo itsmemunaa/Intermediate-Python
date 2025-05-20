@@ -8,12 +8,12 @@ ylab = 'Life Expectancy [in years]'
 title = 'World Development in 2007'
 
 # Add axis labels
-plt.xlabel('gdp_cap')
-plt.ylabel('life_exp')
+plt.xlabel(xlab)
+plt.ylabel(ylab)
 
 
 # Add title
-plt.title("World Development in 2007")
+plt.title(title)
 
 # After customizing, display the plot
 plt.show()
